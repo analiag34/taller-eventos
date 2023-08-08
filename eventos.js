@@ -8,7 +8,6 @@ function saludar () {
 
 container.addEventListener("click", saludar);
 
-
-btn.addEventListener("click",function(saludar) {
+btn.addEventListener("click", function(saludar) {
     saludar.stopPropagation();
-})
+});
